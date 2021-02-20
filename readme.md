@@ -175,13 +175,13 @@ brew list --versions # check installed packages and versions
 Homebrew Cask extends Homebrew to let you install applications and large binaries. Use it to install macOS software like browsers, editors and tools.
 
 ```bash
-brew tap caskroom/cask # added by default, for modern software
+brew tap homebrew/cask # added by default, for modern software
 brew tap homebrew/cask-versions # optional, run to install archived and beta/alpha software like Firefox Developer Edition
 ```
 
 You can test this by installing Firefox, or skip this and install everything at once below.
 
-    brew cask install firefox
+    brew install --cask firefox
 
 ### Installing multiple applications
 
